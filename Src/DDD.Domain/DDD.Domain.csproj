@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\DDD.Domain.Core\DDD.Domain.Core.csproj" />
+    <ProjectReference Include="..\DDD.Infra.CrossCutting.Bus\DDD.Infra.CrossCutting.Bus.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPOI" />
+    <PackageReference Include="Quartz.AspNetCore" />
+    <PackageReference Include="Refit.HttpClientFactory" />
+  </ItemGroup>
+
+</Project>

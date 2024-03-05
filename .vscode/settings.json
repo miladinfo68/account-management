@@ -1,0 +1,18 @@
+{
+  "search.exclude": {
+    "**/bin": true,
+    "**/obj": true
+  },
+  "[csharp]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+      "source.fixAll": "explicit",
+      "source.sortMembers": "explicit"
+    },
+    "editor.formatOnSave": true
+  },
+  // "omnisharp.enableEditorConfigSupport": true,
+  // "omnisharp.organizeImportsOnFormat": true,
+  // "omnisharp.useEditorFormattingSettings": true,
+  // "omnisharp.disableMSBuildDiagnosticWarning": true,
+}

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DDD.Domain\DDD.Domain.csproj" />
+    <ProjectReference Include="..\DDD.Infra.Data\DDD.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
